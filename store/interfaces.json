@@ -2,9 +2,9 @@
   "estilospe-mega-menu": {
     "component": "MegaMenu",
     "allowed": [
-      "before-menu",
-      "after-menu",
-      "drawer"
+      "estilospe-before-menu",
+      "estilospe-after-menu",
+      "estilospe-drawer"
     ]
   },
   "estilospe-before-menu": {
