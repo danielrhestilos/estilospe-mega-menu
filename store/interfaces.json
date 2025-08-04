@@ -1,0 +1,28 @@
+{
+  "estilospe-mega-menu": {
+    "component": "MegaMenu",
+    "allowed": [
+      "before-menu",
+      "after-menu",
+      "drawer"
+    ]
+  },
+  "estilospe-before-menu": {
+    "component": "Extension",
+    "composition": "children",
+    "allowed": "*"
+  },
+  "estilospe-after-menu": {
+    "component": "Extension",
+    "composition": "children",
+    "allowed": "*"
+  },
+  "estilospe-mega-menu-go-back-btn": {
+    "component": "GoBackButton"
+  },
+  "estilospe-mega-menu-trigger-btn": {
+    "component": "TriggerButton",
+    "composition": "children",
+    "render": "client"
+  }
+}
